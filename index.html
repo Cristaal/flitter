@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flitter</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+
+  <script src="libs/jquery-1.11.2.js"></script>
+  <script src="libs/ember-template-compiler-1.10.0.js"></script>
+  <script src="libs/handlebars-v2.0.0.js"></script>
+  <script src="libs/ember.js"></script>
+  <script src="libs/ember-handlebars-loader-0.0.2.js"></script>
+
+  <script src="flitter.js"></script>
+  <script src="router.js"></script>
+  <script src="store.js"></script>
+
+  <script src="routes/fleets.js"></script>
+  <script src="routes/fleet.js"></script>
+
+
+  <script>
+    EmberHandlebarsLoader.loadTemplates([
+      'application', 'fleets', 'fleet'
+    ]);
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
